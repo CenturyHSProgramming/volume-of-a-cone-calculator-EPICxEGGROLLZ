@@ -6,9 +6,9 @@
 import math
 # Define Function below
 # be sure to return an integer
-def calculateConeVolume(baseR, h) 
+def calculateConeVolume(baseR, h): 
 
-    volume = 1/3*math.pr*baseR**2*h
+    volume = 1/3*math.pi*baseR**2*h
     volume = round(volume, 2)
     return volume
 if __name__ == '__main__':
